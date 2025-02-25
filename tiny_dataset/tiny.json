@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "image": "tiny_dataset/images/1.png",
+        "new_caption": "LOUDAN 88-key upright weighted hammer electric piano, professional adult beginner home electronic piano, digital electronic piano, wood grain black + weighted hammer keyboard + pure steel tone + double piano stool"
+    },
+    {
+        "id": "2",
+        "image": "tiny_dataset/images/2.png",
+        "new_caption": "L'OCCITANE Cherry Blossom Hand Cream 30ml, moisturizing, nourishing, soothing, original French, Christmas gift"
+    },
+    {
+        "id": "3",
+        "image": "tiny_dataset/images/3.png",
+        "new_caption": "Black Soy Milk Powder Original Flavor 450 grams (30 grams * 15 sachets) Individually Packaged Pregnant Women's Instant Soy Powder Can Be Mixed with Cold Water"
+    },
+    {
+        "id": "4",
+        "image": "tiny_dataset/images/4.png",
+        "new_caption": "Dove Cherry Blossom Sweet Fragrance Nourishing Shower Gel 1000 grams Locks in Moisture, Softens Skin, Leaves a Lasting Fragrance (Random New or Old Packaging)"
+    },
+    {
+        "id": "5",
+        "image": "tiny_dataset/images/5.png",
+        "new_caption": "Ancient Coin Small Grind Sesame Oil 235 milliliters Sesame Oil Cold Mixing Seasoning Hot Pot Oil Plate Shounong Brand Beijing Time-honored Brand"
+    },
+    {
+        "id": "6",
+        "image": "tiny_dataset/images/6.png",
+        "new_caption": "Solid wood walnut drawer cabinet, new Chinese style storage cabinet, five-drawer cabinet, bedroom cabinet, Yunxuan series, five-drawer cabinet"
+    },
+    {
+        "id": "7",
+        "image": "tiny_dataset/images/7.png",
+        "new_caption": "Singleton 12-year-old Golden Sherry Highland Single Malt Scotch Whisky 700 milliliters"
+    },
+    {
+        "id": "8",
+        "image": "tiny_dataset/images/8.png",
+        "new_caption": "Baisman rabbit plush toy, little white rabbit doll, bunny plush doll, sleeping pillow, birthday gift for girls, pink pig transformed into a rabbit, 50 centimeters"
+    }
+]

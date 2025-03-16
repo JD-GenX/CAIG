@@ -65,7 +65,7 @@ Please ensure that the Prompt_Model_Path in the `gen_demo.sh` script is set corr
 
 
 ## Reward Model Evaluation
-Download the pre-trained Reward Model from [[Hugging Face](https://huggingface.co/Chenguoz/CAIG-Reward-Model-PublicData-Trained)], along with the public test dataset mentioned above. Then modify the `mm_vision_tower key` in the `config.json` file of the Reward Model to point to the correct path.
+Download the pre-trained Reward Model from [[Hugging Face](https://huggingface.co/Chenguoz/CAIG-Reward-Model-PublicData-Trained)], **along with the test set mentioned above (no need to download full training set)**. Then modify the `mm_vision_tower key` in the `config.json` file of the Reward Model to point to the correct path.
 
 Next, run the following code:
 ``` bash

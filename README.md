@@ -15,7 +15,10 @@ In web data, advertising images are crucial for capturing user attention and imp
 <img width="928" alt="image" src="tiny_dataset/overview.png"> 
 
 ## 📢 News
-`[2025-02-25]:` 🔥 We've released our pre-trained Prompt model and inference code! Check out the repository for implementation details.
+
+`[2025-03-16]:` ✨ Everything’s Here! Pre-training datasets, models, and the full PCPO training code are now available!
+
+`[2025-02-25]:` 🔥 We've released our pre-trained Prompt Model and inference code! Check out the repository for implementation details.
 
 `[2025-02-12]:` 🎯 Our paper is now available on arXiv! Check it out here: [https://arxiv.org/abs/2502.06823](https://arxiv.org/abs/2502.06823)
 
@@ -37,19 +40,44 @@ pip install -r requirements.txt
 
 ## 🚀 How to inference
 
-Download and extract the pre-trained Prompt Model ([download link](https://drive.google.com/file/d/1OSubzQ55GLQ33OIQRzIx_KiNjO3G0Ozu/view?usp=drive_link)) and its corresponding vision tower ([download link](https://drive.google.com/file/d/14_ATvmDdAOH8cBUgVCRVRSyyTwaGaIN8/view)). Then modify the `mm_vision_tower` key in the `config.json` file of the Prompt Model to point to the correct path.
+Download and extract the pre-trained Prompt Model [[Google Drive](https://drive.google.com/file/d/1OSubzQ55GLQ33OIQRzIx_KiNjO3G0Ozu/view?usp=drive_link)] [[Hugging Face](https://huggingface.co/Chenguoz/CAIG-Prompt-Model-Pre-trained)] and its corresponding vision tower [[download link](https://drive.google.com/file/d/14_ATvmDdAOH8cBUgVCRVRSyyTwaGaIN8/view)]. Then modify the `mm_vision_tower` key in the `config.json` file of the Prompt Model to point to the correct path.
 
 Next, run the following code:
-```bash
-bash gen_demo.sh
+``` bash
+bash scripts/gen_demo.sh
 ```
 Please ensure that the Prompt_Model_Path in the `gen_demo.sh` script is set correctly (no need to set other paths, as the remaining models will be downloaded automatically).
 
-## 🚀 More Code & Weights Notice  
-The implementation code and pre-trained weights are currently undergoing JD Open-Source Review Process. We are committed to open-sourcing all materials to support research reproducibility.
+## Datasets
+Prompt Model Pre-training Dataset [[Link](http://box.jd.com/sharedInfo/8782F1E0B1CC10684786F0A019A42BD0)]  Access Password: `4o69kt`.
 
-## 📧 Contact for Urgent Requests  
-If you require early access for research collaboration or encounter urgent issues, please contact: [chenxingye@hust.edu.cn](mailto:chenxingye@hust.edu.cn)
+Reward Model Training Dataset [[Link](https://tianchi.aliyun.com/dataset/93585)] and  test Dataset [[Link](https://drive.google.com/file/d/16lUxOxOH9HCaNOSitXVzTnCrws3-n-4w/view?usp=drive_link)].
+
+
+
+## Reward Model Evaluation
+Download the pre-trained Reward Model from [[Hugging Face](https://huggingface.co/Chenguoz/CAIG-Reward-Model-PublicData-Trained)], along with the public test dataset mentioned above. Then modify the `mm_vision_tower key` in the `config.json` file of the Reward Model to point to the correct path.
+
+Next, run the following code:
+``` bash
+bash scripts/eval_reward_model.sh
+```
+
+## Full PCPO Training
+
+**Please ensure that the inference processes for the Prompt Model and Reward Model mentioned above are functioning correctly**, then install the additional libraries required for training with: `pip install -r train_requirements.txt`.
+
+Next, run the following code:
+```bash
+bash scripts/train_pcpo.sh
+```
+**Note that there is no need to download any additional datasets**; the code will use the `tiny_dataset` included in the repository to complete the training. Alternatively, you can customize your own dataset according to the `tiny_dataset format` (this is very simple😊).
+
+<!-- ## 🚀 More Code & Weights Notice  
+The implementation code and pre-trained weights are currently undergoing JD Open-Source Review Process. We are committed to open-sourcing all materials to support research reproducibility. -->
+
+<!-- ## 📧 Contact for Urgent Requests  
+If you require early access for research collaboration or encounter urgent issues, please contact: [chenxingye@hust.edu.cn](mailto:chenxingye@hust.edu.cn) -->
 
 ## Citation
 If you find our paper or repo helpful for your research, please consider citing our paper and giving this repo a star⭐. Thank you! :)

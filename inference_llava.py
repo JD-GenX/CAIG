@@ -131,8 +131,6 @@ def generate_prompt(args):
 
     accelerator.wait_for_everyone()
     start = time.time()
-
-    print("Generate prompts through inference_llava.py")
     with accelerator.split_between_processes(train_dataset) as prompts:
         new_list = []
         total = len(prompts)

@@ -4,7 +4,7 @@ OUTPUT_PATH="./output_demo"
 
 controlnet_model_path="lllyasviel/control_v11p_sd15_canny"
 base_model_path="digiplay/majicMIX_realistic_v7"
-Prompt_Model_Path="/root/datasets/jd/model/llava-v1.6-vicuna-7b-pretrain"
+Prompt_Model_Path="/root/datasets/jd/model/llava-v1.6-vicuna-7b-pretrain-caig"
 Prompt_Model_Output_Path="$OUTPUT_PATH/output_prompt.json"
 
 accelerate launch inference_llava.py --model-path $Prompt_Model_Path --output_data_path $Prompt_Model_Output_Path --generate_nums $prompt_nums --base_data_path $base_data_path --temperature 1.0 

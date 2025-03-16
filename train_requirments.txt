@@ -1,0 +1,7 @@
+accelerate==0.32.1
+flash-attn
+bitsandbytes
+deepspeed==0.9.5
+peft
+datasets
+tensorboardX

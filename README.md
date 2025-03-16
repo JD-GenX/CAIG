@@ -48,11 +48,20 @@ bash scripts/gen_demo.sh
 ```
 Please ensure that the Prompt_Model_Path in the `gen_demo.sh` script is set correctly (no need to set other paths, as the remaining models will be downloaded automatically).
 
-## Datasets
-Prompt Model Pre-training Dataset [[Link](http://box.jd.com/sharedInfo/8782F1E0B1CC10684786F0A019A42BD0)]  Access Password: `4o69kt`.
+## 📊 Datasets
+### 1. Dataset for Prompt Model
+**Description**: Large-scale e-commerce multimodal dataset for equipping MLLMs with advertising image generation capabilities.
+**Access**:  
+- [Download Link](http://box.jd.com/sharedInfo/8782F1E0B1CC10684786F0A019A42BD0)
+- Access password: `4o69kt`
 
-Reward Model Training Dataset [[Link](https://tianchi.aliyun.com/dataset/93585)] and  test Dataset [[Link](https://drive.google.com/file/d/16lUxOxOH9HCaNOSitXVzTnCrws3-n-4w/view?usp=drive_link)].
+### 2. Dataset for Reward Model
+**Description**: Curated dataset with user interaction signals for click preference modeling.
+**Source**:  
+- Primary training data: [Tianchi Competition Dataset](https://tianchi.aliyun.com/dataset/93585)
+- Complementary test set: [Google Drive](https://drive.google.com/file/d/16lUxOxOH9HCaNOSitXVzTnCrws3-n-4w/view?usp=drive_link)
 
+**Note**: All JD.COM-provided datasets are for academic research only. Commercial use requires explicit authorization.
 
 
 ## Reward Model Evaluation

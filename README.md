@@ -20,7 +20,7 @@ In web data, advertising images are crucial for capturing user attention and imp
 
 `[2025-02-25]:` 🔥 We've released our pre-trained Prompt Model and inference code! Check out the repository for implementation details.
 
-`[2025-02-12]:` 🎯 Our paper is now available on arXiv! Check it out here: [https://arxiv.org/abs/2502.06823](https://arxiv.org/abs/2502.06823)
+`[2025-02-12]:` 🎯 Our paper is now available on arXiv! Check it out here: [https://arxiv.org/abs/2502.06823](https://arxiv.org/abs/2502.06823).
 
 `[2025-01-20]:` 🎉 Exciting news! Our paper has been accepted to WWW 2025! Stay tuned for more updates!
 

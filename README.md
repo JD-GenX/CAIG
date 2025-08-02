@@ -35,7 +35,7 @@ pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https
 
 git clone https://github.com/Chenguoz/CAIG.git
 cd CAIG
-pip install -r requirements.txt
+pip install -r requirments.txt
 ```
 
 ## 🚀 How to inference
@@ -74,7 +74,7 @@ bash scripts/eval_reward_model.sh
 
 ## Full PCPO Training
 
-**Please ensure that the inference processes for the Prompt Model and Reward Model mentioned above are functioning correctly**, then install the additional libraries required for training with: `pip install -r train_requirements.txt`.
+**Please ensure that the inference processes for the Prompt Model and Reward Model mentioned above are functioning correctly**, then install the additional libraries required for training with: `pip install -r train_requirments.txt`.
 
 Next, run the following code:
 ```bash

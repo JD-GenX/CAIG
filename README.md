@@ -91,10 +91,11 @@ If you require early access for research collaboration or encounter urgent issue
 ## Citation
 If you find our paper or repo helpful for your research, please consider citing our paper and giving this repo a star⭐. Thank you! :)
 ```
-@article{chen2025ctr,
+@inproceedings{chen2025ctr,
   title={CTR-Driven Advertising Image Generation with Multimodal Large Language Models},
   author={Chen, Xingye and Feng, Wei and Du, Zhenbang and Wang, Weizhen and Chen, Yanyin and Wang, Haohan and Liu, Linkai and Li, Yaoyu and Zhao, Jinyuan and Li, Yu and others},
-  journal={arXiv preprint arXiv:2502.06823},
+  booktitle={Proceedings of the ACM on Web Conference 2025},
+  pages={2262--2275},
   year={2025}
 }
 ```
